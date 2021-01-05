@@ -6,7 +6,7 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/SunitRaut/smart-duty-cycling-arduino"
+    "url": "https://github.com/SunitRaut/Smart-Duty-Cycling-Arduino"
   },
   "frameworks": "arduino",
   "platforms": "atmelavr",
