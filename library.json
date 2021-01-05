@@ -1,0 +1,14 @@
+{
+  "name": "smart_duty_cycling",
+  "version": "1.0.0",
+  "keywords": "duty cycle, sleep, wake, timing",
+  "description": "Automatic duty cycle generation for your Arduino program.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/SunitRaut/smart-duty-cycling-arduino"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr",
+  
+}
