@@ -37,6 +37,7 @@ smart_duty_cycling::smart_duty_cycling()	//Constructor
 	reference_time = 0;
 	wake_period = 1000;
 	sleep_period = 1000;
+	wake = false;
 }
 
 
