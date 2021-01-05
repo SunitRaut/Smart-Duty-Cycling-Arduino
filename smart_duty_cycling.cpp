@@ -90,7 +90,6 @@ void smart_duty_cycling::setDutyCycle(float dutyCycle)
 }
 
 
-
 bool smart_duty_cycling::switchMode()
 {	
 	//Check the time with respect to current cycle
@@ -100,9 +99,16 @@ bool smart_duty_cycling::switchMode()
 	bool wake_temp = (time_now<wake_period)?true:false;
 	
 	// Check if wake mode has switched and return acccordingly
-	if(wake_temp==wake) return false;
-	else return true;
-		
+	if(wake_temp==wake) 
+	{
+		wake = wake_temp;
+		return false;
+	}
+	else 
+	{
+		wake = wake_temp;
+		return true;
+	}
 }  
 
 
