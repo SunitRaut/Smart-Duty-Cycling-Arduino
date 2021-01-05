@@ -62,7 +62,7 @@ void smart_duty_cycling::setWakeSleepPeriods(int val1, int val2)
 	sleep_period = val2;
 }
 
-void smart_duty_cycling::setFrequencyDutyCycle(int freq, float dutyCycle)
+void smart_duty_cycling::setFrequencyDutyCycle(float freq, float dutyCycle)
 {
 	duty_cycle = dutyCycle;
 	
@@ -73,7 +73,7 @@ void smart_duty_cycling::setFrequencyDutyCycle(int freq, float dutyCycle)
 	 	
 }
 
-void smart_duty_cycling::setFrequency(int freq)
+void smart_duty_cycling::setFrequency(float freq)
 {
 	time_period = (1/freq)*1000;		//convert frequency to time in milliseconds
 	
@@ -89,6 +89,7 @@ void smart_duty_cycling::setDutyCycle(float dutyCycle)
 	wake_period = duty_cycle*time_period;
 	sleep_period = (1-duty_cycle)*time_period;
 }
+
 
 
 bool smart_duty_cycling::switchMode()
@@ -111,8 +112,4 @@ bool smart_duty_cycling::switchMode()
 		return true;
 	}
 }  
-
-
-        
-
 
