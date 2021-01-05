@@ -35,11 +35,11 @@ public:
 bool wake;
 
 void setWakeSleepPeriods(int val1, int val2);
-void setFrequencyDutyCycle(int freq, float dutyCycle);
+void setFrequencyDutyCycle(float freq, float dutyCycle);
 void setWakePeriod(int val);
 void setSleepPeriod(int val);
 void setReference(long val);
-void setFrequency(int freq);
+void setFrequency(float freq);
 void setDutyCycle(float dutyCycle);
 
 bool switchMode();
