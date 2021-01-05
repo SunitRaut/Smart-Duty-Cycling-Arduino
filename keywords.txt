@@ -1,0 +1,14 @@
+smart_duty_cycling		KEYWORD2
+
+setWakeSleepPeriods		KEYWORD2
+setFrequencyDutyCycle		KEYWORD2
+setWakePeriod			KEYWORD2
+setSleepPeriod			KEYWORD2
+setReference			KEYWORD2
+setFrequency			KEYWORD2
+setDutyCycle			KEYWORD2
+
+
+wake				LITERAL2
+
+
