@@ -1,4 +1,6 @@
 # Smart-Duty-Cycling-Arduino
+[![GitHub release](https://img.shields.io/github/release/SunitRaut/Smart-Duty-Cycling-Arduino.svg)](https://github.com/SunitRaut/Smart-Duty-Cycling-Arduino)
+[![license](https://img.shields.io/github/license/SunitRaut/Smart-Duty-Cycling-Arduino.svg)](https://github.com/SunitRaut/Smart-Duty-Cycling-Arduino/blob/master/license.txt)
 
 Smart Duty Cycling Library for Arduino. This library keeps ON/OFF timings for your MCU in background so you can perform your tasks without worrying about duty cycling. 
 
