@@ -9,6 +9,5 @@
     "url": "https://github.com/SunitRaut/Smart-Duty-Cycling-Arduino"
   },
   "frameworks": "arduino",
-  "platforms": "atmelavr",
-  
+  "platforms": "atmelavr"  
 }
