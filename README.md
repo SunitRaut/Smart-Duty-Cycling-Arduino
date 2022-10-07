@@ -28,4 +28,5 @@ This library can be used for following applicaions:
 
 
 Please check sample Examples provided with this library for understanding library usage.
+
 Here is an [instructable with simple LED example](https://www.instructables.com/PWM-Generation-With-Arduino-and-LED/)
