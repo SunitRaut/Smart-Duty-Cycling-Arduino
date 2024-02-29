@@ -30,3 +30,10 @@ This library can be used for following applicaions:
 Please check sample Examples provided with this library for understanding library usage.
 
 Here is an [instructable with simple LED example](https://www.instructables.com/PWM-Generation-With-Arduino-and-LED/)
+
+
+## If you Like my Work, Buy me a Coffee!
+
+If this library makes your life easier and has helped bring your project to reality, I would appreciate a small token of gratitude. Click on the below icon to contribute.
+
+<a href="https://www.buymeacoffee.com/sunitraut" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
